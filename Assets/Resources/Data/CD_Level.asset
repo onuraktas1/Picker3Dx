@@ -12,4 +12,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab146ddbf7d940be9483667c3ffc4fc7, type: 3}
   m_Name: CD_Level
   m_EditorClassIdentifier: 
-  LevelDatas: []
+  Levels:
+  - Pools:
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+  - Pools:
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+  - Pools:
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
+    - requiredObjectCount: 0
