@@ -1,6 +1,7 @@
 using RunTime.Commands.Level;
 using RunTime.Data.UnityObjects;
 using RunTime.Data.ValueObjects;
+using RunTime.Enums;
 using RunTime.Signals;
 using UnityEngine;
 
@@ -81,7 +82,7 @@ namespace RunTime.Managers
             CoreGameSignals.Instance.onClearActiveLevel -= _levelDestroyerCommand.Execute;
             CoreGameSignals.Instance.onGetLevelValue -= OnGetLevelValue;
             CoreGameSignals.Instance.onNextLevel -= OnNextLevel;
-            CoreGameSignals.Instance.onRestartLevel -= OnRestartLevel; 
+            CoreGameSignals.Instance.onRestartLevel -= OnRestartLevel;
         }
 
         private void OnDisable()
@@ -93,7 +94,7 @@ namespace RunTime.Managers
         private void Start()
         {
             CoreGameSignals.Instance.onLevelInitialize?.Invoke((byte)(_currentLevel % totalLevelCount));
-            //UISignals
+            CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelTypes.Start, 1);
         }
     }
 }
