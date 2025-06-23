@@ -27,5 +27,8 @@ namespace RunTime.Signals
         public UnityAction onRestartLevel = delegate { };
         public UnityAction onReset = delegate { };
         public Func<byte> onGetLevelValue = delegate { return 0; };
+        public UnityAction onStageAreaEntered = delegate { };
+        public UnityAction<byte> onStageAreaSuccessful = delegate { };
+        public UnityAction onFinishAreaEntered = delegate { };
     }
 }
