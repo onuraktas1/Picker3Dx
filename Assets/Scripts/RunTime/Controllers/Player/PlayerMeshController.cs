@@ -31,5 +31,15 @@ namespace RunTime.Controllers.Player
                 scaleText.rectTransform.DOAnchorPosY(1f, 65f).SetEase(Ease.Linear);
             });
         }
+
+        internal void PlayConfetti()
+        {
+            confetti.Play();
+        }
+
+        internal void OnReset()
+        {
+            renderer.gameObject.transform.DOScaleX(1,1).SetEase(Ease.Linear);
+        }
     }
 }
