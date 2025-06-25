@@ -1,23 +1,11 @@
+using RunTime.Extentions;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace RunTime.Signals
 {
-    public class CameraSignals : MonoBehaviour
+    public class CameraSignals : MonoSingleton<CameraSignals>
     {
-        public static CameraSignals Instance;
-
-        private void Awake()
-        {
-            if (Instance != null && Instance != this)
-            {
-                Destroy(this);
-                return;
-            }
-
-            Instance = this;
-        }
-
         public UnityAction onSetCameraTarget = delegate { };
     }
 }
